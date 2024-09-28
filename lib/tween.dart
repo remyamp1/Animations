@@ -22,8 +22,8 @@ class _TweenTransitionDemoState extends State<TweenTransitionDemo>{
     duration: Duration(seconds: 1),
     builder: (context, Size, child) {
       return Container(
-        height: 200,
-        width: 200,
+        height: Size,
+        width: Size,
         color: Colors.blue,
         child: child,
       );
