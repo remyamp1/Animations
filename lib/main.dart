@@ -1,5 +1,8 @@
 import 'package:animations/AnimatedContainer.dart';
 import 'package:animations/FadeTransition.dart';
+import 'package:animations/Rotat.dart';
+import 'package:animations/ScaleTransition.dart';
+import 'package:animations/SlideTransition.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FadeTransitionDemo(),
+      home:RotatTransitionDemo(),
     );
   }
 }
